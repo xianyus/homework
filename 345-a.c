@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+    int n = 0;
+    int product = 1;
+
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++)
+    {
+        product = product * i;
+    }
+    printf("%d", product);
+
+    return 0;
+}
