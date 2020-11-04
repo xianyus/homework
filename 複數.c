@@ -1,34 +1,35 @@
 #include <stdio.h>
 #include <math.h>
+char x;
 int main(int argc, char const *argv[])
 {
-    int a, b, c, d, x;
+    int a, b, c, d;
     float r = 0, o = 0;
-    printf("Ëº∏ÂÖ•a„ÄÅb„ÄÅc„ÄÅdÂÄº");
+    printf("øÈ§Ja°Bb°Bc°Bd≠»\n");
     scanf("%d %d %d %d", &a, &b, &c, &d);
     printf("%s%d+%s%d\n", "A1 = ", a, "i", b);
     printf("%s%d+%s%d\n", "A2 = ", c, "i", d);
-    printf("Ëº∏ÂÖ•1 = +„ÄÅ2 = -„ÄÅ3 = *„ÄÅ4 = /");
+    printf("øÈ§J1 = +°B2 = -°B3 = *°B4 = /");
     scanf("%d", &x);
 
     switch (x)
     {
-    case 1:
+    case '+':
         r = a + c;
         o = b + d;
         break;
 
-    case 2:
+    case '-':
         r = a - c;
         o = b - d;
         break;
 
-    case 3:
+    case '*':
         r = a * c - b * d;
         o = b * c + a * d;
         break;
 
-    case 4:
+    case '/':
         r = (float)r / (pow(c, 2) + pow(d, 2));
         o = (float)o / (pow(c, 2) + pow(d, 2));
         break;
