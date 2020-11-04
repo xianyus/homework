@@ -31,8 +31,8 @@ int main(int argc, char const *argv[])
         break;
 
     case 4:
-        r = (float)(a * c - b * d) / (pow(c, 2) + pow(d, 2));
-        o = (float)(b * c + a * d) / (pow(c, 2) + pow(d, 2));
+        r = (float)(a * c + b * d) / (pow(c, 2) + pow(d, 2));
+        o = (float)(b * c - a * d) / (pow(c, 2) + pow(d, 2));
         break;
 
     default:
@@ -40,4 +40,5 @@ int main(int argc, char const *argv[])
     }
     printf("%.2f+i%.2f\n", r, o);
     return 0;
+    
 }
