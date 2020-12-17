@@ -6,10 +6,11 @@ int main(int argc, char const *argv[])
     float r = 0, o = 0;
     printf("輸入a、b、c、d值\n");
     scanf("%d %d %d %d", &a, &b, &c, &d);
-    printf("%s%d+%s%d\n", "A1 = ", a, "i", b);
-    printf("%s%d+%s%d\n", "A2 = ", c, "i", d);
+    printf("\n");
+    printf("%s%d+%s%d 、 ", "A1= ", a, "i", b);
+    printf("%s%d+%s%d\n\n", "A2= ", c, "i", d);
     printf("輸入1、2、3、4\n");
-    printf("1 = +、2 = -、3 = *、4 = /\n");
+    printf("[ 1= 加、2= 減、3= 乘、4= 除 ]\n\n");
     scanf("%d", &x);
 
     switch (x)
@@ -37,6 +38,6 @@ int main(int argc, char const *argv[])
     default:
         break;
     }
-    printf("%.2f+i%.2f\n", r, o);
+    printf("Ans = %.2f+i%.2f", r, o);
     return 0;
 }

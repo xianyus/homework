@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
         z = (r * cos(o));
         printf("%s %d %d %.0f\n", "ª½¨¤®y¼Ð(x,y,z)=", x, y, z);
     }
-    if (c == 'EOF')
+    if ( c == 'EOF')
     {
         return 0;
     }

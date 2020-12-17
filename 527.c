@@ -21,7 +21,7 @@ int main(void)
     }
     else
     {
-        y = sqrt(-1 * b * b + 4 * a * c);
+        y = (-1 * b * b + 4 * a * c);
         x3 = (float)(-b) / (2 * a);
         printf("%.3f+%.3f%s\n", x3, y, "i");
         printf("%.3f%.3f%s", x3, -1 * y, "i");
