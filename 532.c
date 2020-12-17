@@ -29,11 +29,13 @@ int main()
         else if (mynum < cnum)
         {
             printf("%s\n", "Too low. Try again.");
+            printf("My number = ");
             scanf("%d", &mynum);
         }
         else
         {
             printf("%s\n", "Too high. Try again.");
+            printf("My number = ");
             scanf("%d", &mynum);
         }
     }

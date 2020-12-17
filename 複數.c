@@ -5,8 +5,7 @@ int main(int argc, char const *argv[])
     int a, b, c, d, x;
     float r = 0, o = 0;
     printf("¿é¤Ja¡Bb¡Bc¡Bd­È\n");
-    scanf("%d %d %d %d", &a, &b, &c, &d);
-    printf("\n");
+    scanf("%d %d %d %d", &a, &b, &c, &d, );
     printf("%s%d+%s%d ¡B ", "A1= ", a, "i", b);
     printf("%s%d+%s%d\n\n", "A2= ", c, "i", d);
     printf("¿é¤J1¡B2¡B3¡B4\n");
