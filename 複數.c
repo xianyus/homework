@@ -11,7 +11,6 @@ int main(int argc, char const *argv[])
     printf("¿é¤J1¡B2¡B3¡B4\n");
     printf("1 = +¡B2 = -¡B3 = *¡B4 = /\n");
     scanf("%d", &x);
-    
 
     switch (x)
     {
@@ -40,5 +39,4 @@ int main(int argc, char const *argv[])
     }
     printf("%.2f+i%.2f\n", r, o);
     return 0;
-    
 }
