@@ -2,7 +2,7 @@
 int main()
 {
     int x;
-    printf("¿é¤JÃD¸¹:");
+    printfï¼ˆ"è¼¸å…¥é¡Œè™Ÿï¼šâ€œï¼‰
     scanf("%d", &x);
 
     switch (x)
