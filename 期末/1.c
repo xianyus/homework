@@ -46,7 +46,7 @@ int main()
     case 10:
         printf("31006-2\n");
         j();
-        break;
+        return 0;
     default:
         break;
     }

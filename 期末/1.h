@@ -31,7 +31,7 @@ int b()
     printf("%d:", a / 3600);    //hour
     printf("%d:", a / 60 % 60); //minute
     printf("%d", a % 60);       //second
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
@@ -43,7 +43,7 @@ int c()
 
     for (int counter = 1; counter <= 10; counter++)
     {
-        printf("%d", counter);
+        printf("%d: ", counter);
         scanf("%d", &number);
         if (number > largest)
         {
@@ -51,7 +51,7 @@ int c()
         }
     }
     printf("%s %d\n", "largest is:", largest);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
@@ -68,7 +68,7 @@ int d()
         a = a + 1;
         n++;
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
@@ -84,7 +84,7 @@ int e()
         product = product * i;
     }
     printf("%d", product);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
@@ -111,7 +111,7 @@ int f()
         }
         printf("%s", "\n");
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
@@ -140,7 +140,7 @@ int g()
         printf("%.3f+%.3f%s\n", x3, y, "i");
         printf("%.3f%.3f%s", x3, -1 * y, "i");
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
@@ -158,7 +158,8 @@ int h()
     {
         if (mynum == cnum)
         {
-            printf("%s\n", "1. Excellent! You guessed the number!\n   Would you like to play again (y or n)?");
+            printf("%s\n", "1. Excellent! You guessed the number!");
+            printf("%s\n", "   Would you like to play again (y or n)?");
             scanf("%s", &check);
             if (check == 'Y' || check == 'y')
             {
@@ -166,6 +167,7 @@ int h()
             }
             else
             {
+                printf("\n\n");
                 return 0;
             }
         }
@@ -182,8 +184,8 @@ int h()
             scanf("%d", &mynum);
         }
     }
-    printf("\n");
-    return g();
+    printf("\n\n");
+    return h();
 }
 
 int i()
@@ -199,7 +201,7 @@ int i()
     float m = 0;
     m = (float)(num[3] - num[1]) / (num[2] - num[0]);
     printf("%s %.2f", "Slope of the Line:", m);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
@@ -212,6 +214,6 @@ int j()
     v = (float)4 / 3 * PI * pow(r, 3);
     printf("%s %d\n", "The radius of sphere is:", r);
     printf("%s %.2f", "The volume of sphere is:", v);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
