@@ -2,7 +2,7 @@
 int main()
 {
     int x;
-    printf("輸入題號: ");
+    printf("輸入題號:");
     scanf("%d", &x);
 
     switch (x)
